@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="HOME" />
+    </group>
+
+    <item android:title="CATAGORIES">
+        <menu>
+        <item
+            android:id="@+id/nav_women"
+            android:title="WOMEN" />
+        <item
+            android:id="@+id/nav_men"
+            android:title="MEN" />
+        <item
+            android:id="@+id/nav_kids"
+            android:title="KIDS" />
+        </menu>
+    </item>
+
+    <item android:title="OTHER">
+        <menu>
+            <item
+                android:id="@+id/nav_aboutUs"
+                android:title="ABOUT US" />
+
+        </menu>
+    </item>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/footer"
+                android:title="2017 StyleOmega. All Rights Reserved." />
+
+        </menu>
+    </item>
+
+</menu>

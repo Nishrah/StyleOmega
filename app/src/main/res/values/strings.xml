@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">STYLE OMEGA</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="username_msg">Enter Username</string>
+    <string name="password_msg">Enter Password</string>
+    <string name="signin_btn">Sign In</string>
+    <string name="create_account_btn">CREATE AN ACCOUNT</string>
+    <string name="forgot_password_link">Forgot Password?</string>
+    <string name="email_msg">Enter Email</string>
+    <string name="firstName_msg">Enter First Name</string>
+    <string name="lastName_msg">Enter Last Name</string>
+    <string name="tel_msg">Enter Tel.</string>
+    <string name="address_msg">Enter Address</string>
+    <string name="re_password_msg">Re Enter Password</string>
+    <string name="edit_profile_heading">EDIT PROFILE</string>
+    <string name="edit_profile_button">APPLY CHANGES</string>
+    <string name="my_account_heading">MY ACCOUNT</string>
+    <string name="reset_password_heading">RESET PASSWORD</string>
+    <string name="view_inquiries_heading">VIEW INQUIRIES</string>
+    <string name="forgot_password_msg">Please enter your email address below. You will receive an email with your login credentials shortly.</string>
+    <string name="submit_btn">SUBMIT</string>
+    <string name="contact_store_heading">CONTACT CLOTH STORE</string>
+    <string name="inquiry_msg">Enter Inquiry</string>
+    <string name="sign_out_lbl">SIGN OUT</string>
+    <string name="women_heading">WOMENS WARDROBE</string>
+    <string name="men_heading">MENS WARDROBE</string>
+    <string name="kid_heading">KIDS WARDROBE</string>
+    <string name="inquiry_heading">INQUIRIES</string>
+    <string name="add_toBag_btn">ADD TO BAG</string>
+    <string name="share_btn">SHARE</string>
+    <string name="contact_styleomega_btn">CONTACT STYLE OMEGA</string>
+    <string name="review_heading">ADD REVIEW</string>
+    <string name="review_msg">Enter Review</string>
+    <string name="aboutUs_body">We warmly welcome you to the StyleOmega mobile application. We are thrilled to have you on board with us. StyleOmega is proud to serve our customers with a easy and competent shopping experience.\n\nStyleOmega is a leading Fashion Store in the country for ladies, men\'s and children\'s clothing and accessories with diversified varieties. We value diversity and it\'s unique contribution to a creative world.\n\n\nStore Locations:\nColombo 07.\nColombo 03.\nKandy.\nGalle.\n\n\nContact us at :\nemail - styleomega@gmail.com\ntel -   (+94)112569745 / (+94)776589456</string>
+</resources>

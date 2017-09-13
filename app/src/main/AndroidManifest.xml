@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.nishrah.styleomega">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SingInActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".RegisterActivity"
+            android:label="@string/app_name"
+            android:parentActivityName=".SingInActivity" />
+        <activity
+            android:name=".EditProfileActivity"
+            android:label="@string/app_name"
+            android:parentActivityName=".MyAccountActivity" />
+        <activity
+            android:name=".MyAccountActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".ForgotPasswordActivity"
+            android:label="@string/app_name"
+            android:parentActivityName=".SingInActivity" />
+        <activity
+            android:name=".ResetPasswordActivity"
+            android:label="@string/app_name"
+            android:parentActivityName=".MyAccountActivity" />
+        <activity
+            android:name=".ContactClothStoreActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".WomenCategoryActivity"
+            android:label="WOMEN"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MenCategoryActivity"
+            android:label="MEN"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".KidCategoryActivity"
+            android:label="KIDS"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".InquiriesActivity"
+            android:label="@string/app_name"
+            android:parentActivityName=".MyAccountActivity" />
+        <activity android:name=".ProductListActivity" />
+        <activity android:name=".ProductInformationActivity" />
+        <activity
+            android:name=".ShoppingBagActivity"
+            android:label="MY BAG" />
+        <activity
+            android:name=".ReviewsActivity"
+            android:label="@string/app_name"
+            android:parentActivityName=".ProductInformationActivity" />
+        <activity
+            android:name=".ConfirmPurchaseActivity"
+            android:label="@string/app_name"
+            android:parentActivityName=".ShoppingBagActivity" />
+        <activity
+            android:name=".ReceiptActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".PurchaseHistoryActivity"
+            android:label="@string/app_name"
+            android:parentActivityName=".MyAccountActivity" />
+        <activity
+            android:name=".AboutUsActivity"
+            android:label="ABOUT STYLE OMEGA" />
+        <activity android:name=".SearchActivity" android:label="SEARCH"
+            android:parentActivityName=".MainActivity"></activity>
+    </application>
+
+</manifest>

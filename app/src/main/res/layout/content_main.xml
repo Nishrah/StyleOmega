@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.nishrah.styleomega.MainActivity">
+
+    <include
+        layout="@layout/app_bar_main"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        android:id="@+id/include"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1" />
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="9dp"
+        android:layout_marginLeft="9dp"
+        android:layout_marginRight="9dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="62dp"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/include"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/home_wc"
+                android:layout_width="467dp"
+                android:layout_height="283dp"
+                android:onClick="womenCategoryClick"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/home_wc" />
+
+            <TextView
+                android:id="@+id/tv_wt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="225dp"
+                android:text="@string/women_heading"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="bold"
+                app:layout_constraintLeft_toRightOf="@+id/home_wc"
+                app:layout_constraintRight_toLeftOf="@+id/home_wc"
+                app:layout_constraintTop_toTopOf="@+id/home_wc" />
+
+            <ImageView
+                android:id="@+id/home_mc"
+                android:layout_width="467dp"
+                android:layout_height="283dp"
+                android:onClick="MenCategoryClick"
+                app:layout_constraintHorizontal_bias="0.511"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/home_wc"
+                app:srcCompat="@drawable/home_mc" />
+
+            <TextView
+                android:id="@+id/tv_mt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/men_heading"
+                android:textColor="@android:color/background_light"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginTop="8dp"
+                app:layout_constraintVertical_bias="0.566"
+                app:layout_constraintRight_toLeftOf="@+id/home_mc"
+                app:layout_constraintLeft_toRightOf="@+id/home_mc"
+                app:layout_constraintHorizontal_bias="0.33" />
+
+            <ImageView
+                android:id="@+id/home_k"
+                android:layout_width="467dp"
+                android:layout_height="390dp"
+                android:onClick="KidCategoryClick"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/home_mc"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/home_k" />
+
+            <TextView
+                android:id="@+id/tv_kt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/kid_heading"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="bold"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginTop="577dp"
+                app:layout_constraintRight_toLeftOf="@+id/home_wc"
+                app:layout_constraintLeft_toRightOf="@+id/home_wc"
+                app:layout_constraintHorizontal_bias="0.668" />
+        </android.support.constraint.ConstraintLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

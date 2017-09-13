@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_spinner"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_quantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:text="QUANTITY"
+        android:textAlignment="center" />
+
+    <Spinner
+        android:id="@+id/spn_quantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_quantity"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:spinnerMode="dialog" />
+
+    <TextView
+        android:id="@+id/tv_size"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spn_quantity"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="SIZE"
+        android:textAlignment="center" />
+
+    <Spinner
+        android:id="@+id/spn_size"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="false"
+        android:layout_below="@+id/tv_size"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:spinnerMode="dialog" />
+
+    <Button
+        android:id="@+id/btn_confirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spn_size"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:background="@color/colorPrimary"
+        android:text="CONFIRM"
+        android:textColor="@android:color/background_light" />
+
+</RelativeLayout>
